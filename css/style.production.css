@@ -71,6 +71,12 @@ button:focus {
 	opacity: 0.5;
 }
 
+#contact-information {
+	max-width: 500px;
+	margin: auto;
+	text-align: center;
+}
+
 .profile_portrait {
 	float: left;
 	width: 250px;
@@ -147,11 +153,20 @@ button:focus {
 	-ms-grid-columns: 1fr 20px 1fr 20px 1fr;
 	grid-template-columns: 1fr 1fr 1fr;
 	grid-gap: 20px;
+	padding: 20px;
+}
+
+.page_title {
+	text-align: center;
+	font-size: 50px;
 }
 
 .grid_item {
 	background-color: lightgray;
 	padding: 10px;
+	text-align: center;
+	border-radius: 25px;
+	box-shadow: 0 5px 7px 0 #000;
 }
 
 @media all and (max-width: 750px) {
